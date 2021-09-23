@@ -3,29 +3,27 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Scene = () => {
   return (
-    <section className="section section-lg d-flex justify-content-center">
+    <section className=" d-flex justify-content-center white-blue scene">
       <div className="container card-md bg-primary shadow-inset py-5 pt-lg-7 mx-0">
-        <div className="card-body bg-primary px-0">
+        <div className="card-body bg-primary px-2">
           <div className="text-md-center d-flex flex-column justify-content-center">
-            <p className="h4 text-danger">damn güey</p>
+            <p className="h4 text-danger">damn wey</p>
             <h2 className="display-2">
-              Exactly what kind of underground scene are you talking about?
+              Exactly what kind of underground scene are we talking about?
             </h2>
             <p className="lead">Every. Scene.</p>
             <div className="row justify-content-center">
               <p className="col-12 col-md-9 lead">
                 In a city of 8+ million, you can find just about every music
-                scene in the worold. Every week I find at least 40 underground*
-                events in CDMX. Instead of describing every single music
-                collective I've listened to and every venue I've been to, it
-                might be better if I describe a typical week.
+                scene in the world. Every week I find at least 30 underground*
+                events in CDMX. Here's a typical week:
               </p>
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col-12 col-md-5 col-lg-4">
+            <div className="col-12 col-md-4 col-lg-4">
               <p>
-                <b>Mondays and Tuesdays</b> are relatively dead. Every now and
+                <b>Mondays and Tuesdays</b> are relatively dead. Bars will still be open during the evening as usual, but the after hours scene is very limited. There are exceptions for holidays and extended weekends and every now and
                 then a bar will invite a few DJs for a special night.
               </p>
               <p>
@@ -34,12 +32,19 @@ const Scene = () => {
                 pop and more. There's some really cool stuff you'd almost never
                 hear at any of the weekend venues.
               </p>
+              <StaticImage
+                className="gridphoto"
+                src="../../images/flyer/weeb.jpeg"
+                alt="me"
+                placeholder="dominantColor"
+              />
               <p>
                 <b>Wednesdays</b> get a bit more mainstream with more tech house
                 events. Almost never any real techno. There's a few weekend
                 venues that have adopted being open on Wednesdays as part of
                 their identity.
               </p>
+
               <p>
                 <b>Thursdays</b> are usually for disco if I go out. The crowds
                 are more casual so most venues like to book mainstream sets.
@@ -48,6 +53,7 @@ const Scene = () => {
                 that's known for hard techno, the music is always toned down...
                 to make it more "palatable"... I wish it were different.
               </p>
+
               <p>
                 Since I like to reserve the real weekend for techno, I don't
                 mind starting the "weekend" with a bit of disco (pop, nu, or
@@ -62,6 +68,12 @@ const Scene = () => {
                 welcome and comfortable however. I point that out for some of my
                 fellow ravers who have concerns aout violating safe spaces.
               </p>
+              <StaticImage
+                className="gridphoto"
+                src="../../images/flyer/retro.jpeg"
+                alt="me"
+                placeholder="dominantColor"
+              />
               <p>
                 I don't like disco as much as I used to. I usually only go out
                 on Thursdays if my friends invite me. Many of my friends only
@@ -76,64 +88,26 @@ const Scene = () => {
                 Cuauhtémoc- the one with free entry and the other with
                 Funktion-One sound systems. If you know you know.
               </p>
+
             </div>
-            <div className="col-12 col-md-2 col-lg-4 ">
-              <StaticImage
-                className="gridphoto"
-                src="../../images/flyer1.jpeg"
-                alt="me"
-                placeholder="dominantColor"
-              />
-              <StaticImage
-                className="gridphoto"
-                src="../../images/flyer3.jpeg"
-                alt="me"
-                placeholder="dominantColor"
-              />
-              <StaticImage
-                className="gridphoto"
-                src="../../images/flyer5.jpeg"
-                alt="me"
-                placeholder="dominantColor"
-              />
-              <StaticImage
-                className="gridphoto"
-                src="../../images/flyer6.jpeg"
-                alt="me"
-                placeholder="dominantColor"
-              />
-              <StaticImage
-                className="gridphoto"
-                src="../../images/flyer10.jpeg"
-                alt="me"
-                placeholder="dominantColor"
-              />
-              <StaticImage
-                className="gridphoto"
-                src="../../images/flyer11.jpeg"
-                alt="me"
-                placeholder="dominantColor"
-              />
-              <StaticImage
-                className="gridphoto"
-                src="../../images/flyer13.jpeg"
-                alt="me"
-                placeholder="dominantColor"
-              />
-              <StaticImage
-                className="gridphoto"
-                src="../../images/flyer14.jpeg"
-                alt="me"
-                placeholder="dominantColor"
-              />
-              <StaticImage
-                className="gridphoto"
-                src="../../images/flyer16.jpeg"
-                alt="me"
-                placeholder="dominantColor"
-              />
-            </div>
-            <div className="col-12 col-md-5 col-lg-4">
+
+
+
+
+
+
+
+
+
+
+
+
+            <div className="col-12 col-md-4 col-lg-4 ">
+
+
+
+
+
               <p>
                 <b>Fridays</b> are the best for my music tastes atm. I like
                 techno. Specifically dark techno. Think bass heavy. High BPM,
@@ -142,13 +116,20 @@ const Scene = () => {
                 turns any respectable looking establishment into a sweaty
                 pheromone-rank demon hole. So dark it makes me feel vibrant,
                 cathartic, and empty. So I can appreciate life again. That
-                dahhrk dark. No disco balls in sight.
+                dahhrk dark. No disco balls in sight!
               </p>
+              <StaticImage
+                className="gridphoto"
+                src="../../images/flyer/dogs.jpg"
+                alt="me"
+                placeholder="dominantColor"
+              />
               <p>
                 I like it mental and psychedelic. The crowds are usually filled
                 with real techno enthusiasts who are there for the music and
                 maybe a bit more.
               </p>
+
               <p>
                 I save my body for Friday night techno. Sometimes I rave
                 completely sober for a more "pure" experience. More often,
@@ -157,15 +138,62 @@ const Scene = () => {
                 in my front pockets, stop socializing, and jump straight into
                 the thick of it.
               </p>
+              <StaticImage
+                className="gridphoto"
+                src="../../images/flyer/mask.jpeg"
+                alt="me"
+                placeholder="dominantColor"
+              />
+
               <p>
                 No matter where I am on the dance floor, it’s me and the DJ.
                 Every now and then I’ll find myself turning my head just to see
                 if anyone else is in the same plane of existence.
               </p>
+
               <p>
                 I usually end my Friday nights at someone’s after-after-party
                 Saturday morning/noon.
               </p>
+              <StaticImage
+                className="gridphoto"
+                src="../../images/flyer/technogirl.jpeg"
+                alt="me"
+                placeholder="dominantColor"
+              />
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div className="col-12 col-md-4 col-lg-4">
+
+              <StaticImage
+                className="gridphoto"
+                src="../../images/flyer/ufo.jpeg"
+                alt="me"
+                placeholder="dominantColor"
+              />
+
+
               <p>
                 <b>Saturdays</b> are usually also my techno nights, but since
                 the biggest hyped up events are typically on Fridays, and
@@ -178,10 +206,17 @@ const Scene = () => {
                 days of the week. I have a feeling reggaeton might be the move,
                 but so far I haven’t really enjoyed myself at those events.
               </p>
+
               <p>
                 I like to end my raving after Saturday night, but sometimes I’ll
                 also after-party-party until Monday morning.{" "}
               </p>
+              <StaticImage
+                className="gridphoto"
+                src="../../images/flyer/spiral.jpeg"
+                alt="me"
+                placeholder="dominantColor"
+              />
               <p>
                 <b>Sundays</b> are chill. It's the unofficial tech house and
                 disco night. There’s usually higher profile disco DJs playing on

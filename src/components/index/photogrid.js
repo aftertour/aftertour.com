@@ -3,49 +3,194 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Photogrid = () => {
   return (
-    <section className="photogrid-bg">
-      <p className="text-center">A small gallery of beautiful flyers from before. The stuff I'm sharing.</p>
+    <section className="black-white fullgrid">
       <div className="photogridrow">
         <div className="photogridcol">
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/6.jpeg"
+            src="../../images/fullgrid/1.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/11.jpeg"
+            src="../../images/fullgrid/2.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/16.jpeg"
+            src="../../images/fullgrid/3.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/21.jpeg"
+            src="../../images/fullgrid/4.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/26.jpeg"
+            src="../../images/fullgrid/5.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/31.jpeg"
+            src="../../images/fullgrid/6.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/36.jpeg"
+            src="../../images/fullgrid/7.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/8.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/9.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/10.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+        </div>
+
+        <div className="photogridcol">
+
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/11.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/12.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/13.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/14.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/15.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/16.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/17.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/18.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/19.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/20.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+        </div>
+
+        <div className="photogridcol">
+
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/21.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/22.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/23.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/24.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/25.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/26.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/27.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/28.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/29.jpg"
+            alt="me"
+            placeholder="dominantColor"
+          />
+          <StaticImage
+            className="gridphoto"
+            src="../../images/fullgrid/30.jpg"
             alt="me"
             placeholder="dominantColor"
           />
@@ -54,88 +199,61 @@ const Photogrid = () => {
         <div className="photogridcol">
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/7.jpeg"
+            src="../../images/fullgrid/31.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/12.jpeg"
+            src="../../images/fullgrid/32.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/17.jpeg"
+            src="../../images/fullgrid/33.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/22.jpeg"
+            src="../../images/fullgrid/34.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/27.jpeg"
+            src="../../images/fullgrid/35.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/32.jpeg"
+            src="../../images/fullgrid/36.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/37.jpeg"
-            alt="me"
-            placeholder="dominantColor"
-          />
-        </div>
-
-        <div className="photogridcol">
-          <StaticImage
-            className="gridphoto"
-            src="../../images/flyer/3.jpeg"
+            src="../../images/fullgrid/37.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/13.jpeg"
+            src="../../images/fullgrid/38.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/18.jpeg"
+            src="../../images/fullgrid/39.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/23.jpeg"
-            alt="me"
-            placeholder="dominantColor"
-          />
-          <StaticImage
-            className="gridphoto"
-            src="../../images/flyer/28.jpeg"
-            alt="me"
-            placeholder="dominantColor"
-          />
-          <StaticImage
-            className="gridphoto"
-            src="../../images/flyer/33.jpeg"
-            alt="me"
-            placeholder="dominantColor"
-          />
-          <StaticImage
-            className="gridphoto"
-            src="../../images/flyer/38.jpeg"
+            src="../../images/fullgrid/40.jpg"
             alt="me"
             placeholder="dominantColor"
           />
@@ -144,94 +262,67 @@ const Photogrid = () => {
         <div className="photogridcol">
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/4.jpeg"
+            src="../../images/fullgrid/41.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/9.jpeg"
+            src="../../images/fullgrid/42.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/14.jpeg"
+            src="../../images/fullgrid/43.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/19.jpeg"
+            src="../../images/fullgrid/44.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/24.jpeg"
+            src="../../images/fullgrid/45.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/29.jpeg"
+            src="../../images/fullgrid/46.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/34.jpeg"
-            alt="me"
-            placeholder="dominantColor"
-          />
-        </div>
-
-        <div className="photogridcol">
-          <StaticImage
-            className="gridphoto"
-            src="../../images/flyer/5.jpeg"
+            src="../../images/fullgrid/47.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/10.jpeg"
+            src="../../images/fullgrid/48.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/15.jpeg"
+            src="../../images/fullgrid/49.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/20.jpeg"
+            src="../../images/fullgrid/50.jpg"
             alt="me"
             placeholder="dominantColor"
           />
           <StaticImage
             className="gridphoto"
-            src="../../images/flyer/25.jpeg"
-            alt="me"
-            placeholder="dominantColor"
-          />
-          <StaticImage
-            className="gridphoto"
-            src="../../images/flyer/30.jpeg"
-            alt="me"
-            placeholder="dominantColor"
-          />
-          <StaticImage
-            className="gridphoto"
-            src="../../images/flyer/35.jpeg"
-            alt="me"
-            placeholder="dominantColor"
-          />
-          <StaticImage
-            className="gridphoto"
-            src="../../images/flyer/40.jpeg"
+            src="../../images/fullgrid/51.jpg"
             alt="me"
             placeholder="dominantColor"
           />

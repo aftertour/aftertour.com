@@ -7,8 +7,7 @@ import "./layout.scss"
 
 const Layout = ({ children }) => {
   return (
-    <div className="container-fluid p-0">
-      <Navbar />
+    <div className="container-fluid p-0 ">
       <main>{children}</main>
     </div>
   )

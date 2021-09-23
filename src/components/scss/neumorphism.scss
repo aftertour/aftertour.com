@@ -46,49 +46,32 @@
 
 // write your custom styles here!
 
-.offer .icon span {
-  color: $dark;
-}
 
-.perks ul {
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-}
 
 .btn,
 .card {
   border: none;
 }
 
-.hearts {
-  color: black;
-}
-
-.igcard {
-  border: 2px solid #e4405f !important;
-}
-
-.fbcard {
-  border: 2px solid #3b5999 !important;
-}
-
-button.navbar-toggler {
-  z-index: 2000;
-}
 
 .photogridrow {
   display: -ms-flexbox; /* IE 10 */
   display: flex;
   -ms-flex-wrap: wrap; /* IE 10 */
   flex-wrap: wrap;
-  padding: 0px 4px;
+  padding: 0px 0px;
 }
 
 .photogridcol {
   -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.fullgrid .photogridcol {
+  -ms-flex: 50%; /* IE 10 */
   flex: 20%;
-  padding: 8px;
+  padding: 0 8px;
 }
 
 .photogridcol img {
@@ -97,7 +80,7 @@ button.navbar-toggler {
   width: 100%;
 }
 
-.intro-bg {
+.bgblk {
   background-color:#100c08;
 }
 
@@ -106,11 +89,31 @@ button.navbar-toggler {
 background: linear-gradient(180deg, #100c08 0%, #000, #e6e7ee);
 }
 
+.blue-black {
+  background: linear-gradient(180deg,#000a1d, #000);
+}
+
+.black-white {
+  background: linear-gradient(180deg,#000, #e6e7ee);
+}
+
+.white-blue {
+  background: linear-gradient(180deg, #e6e7ee 0%, #000a1d);
+}
+
 .bgtoblack {
   
   background: linear-gradient(180deg, #e6e7ee, #100c08 );
   }
 
+.blue {
+  background: #000a1d;
+}
+
 .text-spotify {
   color: #1db954;
+}
+
+.scene .gridphoto {
+  @extend .mb-4
 }
